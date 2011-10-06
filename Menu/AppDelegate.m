@@ -6,9 +6,9 @@
 //  Copyright 2011 iRANV Corporation. All rights reserved.
 //
 
-#import "MenuAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation MenuAppDelegate
+@implementation AppDelegate
 
 @synthesize window = _window;
 

@@ -12,7 +12,7 @@
 		83DE9BC1143E49C200EEE7EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DE9BC0143E49C200EEE7EF /* CoreGraphics.framework */; };
 		83DE9BC7143E49C200EEE7EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83DE9BC5143E49C200EEE7EF /* InfoPlist.strings */; };
 		83DE9BC9143E49C200EEE7EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DE9BC8143E49C200EEE7EF /* main.m */; };
-		83DE9BCD143E49C200EEE7EF /* MenuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DE9BCC143E49C200EEE7EF /* MenuAppDelegate.m */; };
+		83DE9BCD143E49C200EEE7EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DE9BCC143E49C200EEE7EF /* AppDelegate.m */; };
 		83DE9BD0143E49C200EEE7EF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83DE9BCE143E49C200EEE7EF /* MainWindow.xib */; };
 		83DE9BD8143E49C200EEE7EF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DE9BD7143E49C200EEE7EF /* SenTestingKit.framework */; };
 		83DE9BD9143E49C200EEE7EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DE9BBC143E49C200EEE7EF /* UIKit.framework */; };
@@ -38,16 +38,16 @@
 		83DE9BBC143E49C200EEE7EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		83DE9BBE143E49C200EEE7EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		83DE9BC0143E49C200EEE7EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		83DE9BC4143E49C200EEE7EF /* Menu-Info.plist */ = {isa = PBXFileReference; path = "Menu-Info.plist"; sourceTree = "<group>"; };
+		83DE9BC4143E49C200EEE7EF /* Menu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Menu-Info.plist"; sourceTree = "<group>"; };
 		83DE9BC6143E49C200EEE7EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83DE9BC8143E49C200EEE7EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		83DE9BCA143E49C200EEE7EF /* Menu-Prefix.pch */ = {isa = PBXFileReference; path = "Menu-Prefix.pch"; sourceTree = "<group>"; };
-		83DE9BCB143E49C200EEE7EF /* MenuAppDelegate.h */ = {isa = PBXFileReference; path = MenuAppDelegate.h; sourceTree = "<group>"; };
-		83DE9BCC143E49C200EEE7EF /* MenuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuAppDelegate.m; sourceTree = "<group>"; };
+		83DE9BCA143E49C200EEE7EF /* Menu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Menu-Prefix.pch"; sourceTree = "<group>"; };
+		83DE9BCB143E49C200EEE7EF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		83DE9BCC143E49C200EEE7EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		83DE9BCF143E49C200EEE7EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		83DE9BD6143E49C200EEE7EF /* MenuTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DE9BD7143E49C200EEE7EF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		83DE9BE0143E49C200EEE7EF /* MenuTests-Info.plist */ = {isa = PBXFileReference; path = "MenuTests-Info.plist"; sourceTree = "<group>"; };
+		83DE9BE0143E49C200EEE7EF /* MenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MenuTests-Info.plist"; sourceTree = "<group>"; };
 		83DE9BE2143E49C200EEE7EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83DE9BE4143E49C200EEE7EF /* MenuTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuTests.h; sourceTree = "<group>"; };
 		83DE9BE6143E49C200EEE7EF /* MenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTests.m; sourceTree = "<group>"; };
@@ -111,8 +111,8 @@
 		83DE9BC2143E49C200EEE7EF /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				83DE9BCB143E49C200EEE7EF /* MenuAppDelegate.h */,
-				83DE9BCC143E49C200EEE7EF /* MenuAppDelegate.m */,
+				83DE9BCB143E49C200EEE7EF /* AppDelegate.h */,
+				83DE9BCC143E49C200EEE7EF /* AppDelegate.m */,
 				83DE9BCE143E49C200EEE7EF /* MainWindow.xib */,
 				83DE9BC3143E49C200EEE7EF /* Supporting Files */,
 			);
@@ -257,7 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83DE9BC9143E49C200EEE7EF /* main.m in Sources */,
-				83DE9BCD143E49C200EEE7EF /* MenuAppDelegate.m in Sources */,
+				83DE9BCD143E49C200EEE7EF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
