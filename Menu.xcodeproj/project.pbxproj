@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83C1476A143EAF860099DAE5 /* TestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C14769143EAF860099DAE5 /* TestTableView.m */; };
+		83C14771143EB2EC0099DAE5 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C14770143EB2EC0099DAE5 /* TestViewController.m */; };
 		83DE9BBD143E49C200EEE7EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DE9BBC143E49C200EEE7EF /* UIKit.framework */; };
 		83DE9BBF143E49C200EEE7EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DE9BBE143E49C200EEE7EF /* Foundation.framework */; };
 		83DE9BC1143E49C200EEE7EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DE9BC0143E49C200EEE7EF /* CoreGraphics.framework */; };
@@ -21,6 +23,7 @@
 		83DE9BE3143E49C200EEE7EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83DE9BE1143E49C200EEE7EF /* InfoPlist.strings */; };
 		83DE9BE5143E49C200EEE7EF /* MenuTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 83DE9BE4143E49C200EEE7EF /* MenuTests.h */; };
 		83DE9BE7143E49C200EEE7EF /* MenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DE9BE6143E49C200EEE7EF /* MenuTests.m */; };
+		83DE9BF5143E4B8200EEE7EF /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DE9BF4143E4B8200EEE7EF /* MenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83C14768143EAF860099DAE5 /* TestTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableView.h; sourceTree = "<group>"; };
+		83C14769143EAF860099DAE5 /* TestTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableView.m; sourceTree = "<group>"; };
+		83C1476F143EB2EC0099DAE5 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		83C14770143EB2EC0099DAE5 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		83DE9BB8143E49C200EEE7EF /* Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Menu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DE9BBC143E49C200EEE7EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		83DE9BBE143E49C200EEE7EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,7 +49,7 @@
 		83DE9BC6143E49C200EEE7EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83DE9BC8143E49C200EEE7EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83DE9BCA143E49C200EEE7EF /* Menu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Menu-Prefix.pch"; sourceTree = "<group>"; };
-		83DE9BCB143E49C200EEE7EF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		83DE9BCB143E49C200EEE7EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83DE9BCC143E49C200EEE7EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		83DE9BCF143E49C200EEE7EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		83DE9BD6143E49C200EEE7EF /* MenuTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +58,8 @@
 		83DE9BE2143E49C200EEE7EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83DE9BE4143E49C200EEE7EF /* MenuTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuTests.h; sourceTree = "<group>"; };
 		83DE9BE6143E49C200EEE7EF /* MenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTests.m; sourceTree = "<group>"; };
+		83DE9BF3143E4B8200EEE7EF /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = SOURCE_ROOT; };
+		83DE9BF4143E4B8200EEE7EF /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +123,12 @@
 				83DE9BCB143E49C200EEE7EF /* AppDelegate.h */,
 				83DE9BCC143E49C200EEE7EF /* AppDelegate.m */,
 				83DE9BCE143E49C200EEE7EF /* MainWindow.xib */,
+				83DE9BF3143E4B8200EEE7EF /* MenuViewController.h */,
+				83DE9BF4143E4B8200EEE7EF /* MenuViewController.m */,
+				83C14768143EAF860099DAE5 /* TestTableView.h */,
+				83C14769143EAF860099DAE5 /* TestTableView.m */,
+				83C1476F143EB2EC0099DAE5 /* TestViewController.h */,
+				83C14770143EB2EC0099DAE5 /* TestViewController.m */,
 				83DE9BC3143E49C200EEE7EF /* Supporting Files */,
 			);
 			path = Menu;
@@ -258,6 +273,9 @@
 			files = (
 				83DE9BC9143E49C200EEE7EF /* main.m in Sources */,
 				83DE9BCD143E49C200EEE7EF /* AppDelegate.m in Sources */,
+				83DE9BF5143E4B8200EEE7EF /* MenuViewController.m in Sources */,
+				83C1476A143EAF860099DAE5 /* TestTableView.m in Sources */,
+				83C14771143EB2EC0099DAE5 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +443,7 @@
 				83DE9BEC143E49C200EEE7EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83DE9BED143E49C200EEE7EF /* Build configuration list for PBXNativeTarget "MenuTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +452,7 @@
 				83DE9BEF143E49C200EEE7EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
